@@ -1,6 +1,5 @@
 # Amigo Secreto - Hacker Edition
 
-![Vista Principal](assets/hacker-theme.png)
 <p align="left">
    <img src="./assets/img/portada.png">
 </p>
