@@ -15,7 +15,7 @@ Sigue estas instrucciones para obtener una copia del proyecto y ejecutarlo en tu
 ### 🔧 Instalación
 
 ```sh
-git clone 
+git clone https://github.com/Yzamora25/amigo-secreto.git
 ```
 
 Una vez clonado el repositorio, abre el archivo `index.html` en tu navegador preferido.
