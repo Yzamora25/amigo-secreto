@@ -32,8 +32,8 @@ Una vez clonado el repositorio, abre el archivo `index.html` en tu navegador pre
 
 ## 📦 Capturas de pantalla
 
-![Vista Principal](assets/hacker-interface.png)  
-![Resultado del Sorteo](assets/result-sorteo.png)  
+![Vista Principal](./assets/img/listado.png)  
+![Resultado del Sorteo](./assets/img/resultado.png)  
 
 ---
 
