@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Amigo Secreto - Hacker Edition</title>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="card card-custom">
+                    <h1><i class="bi bi-shield-lock"></i> Amigo Secreto</h1>
+                    <input type="text" id="amigo" class="form-control my-3" placeholder="Ingresa un nombre...">
+                    <button class="btn btn-custom" onclick="agregarAmigo()"><i class="bi bi-person-plus"></i> Añadir</button>
+                    <ul id="listaAmigos" class="mt-3"></ul>
+                    <button class="btn btn-custom mt-3" onclick="sortearAmigo()"><i class="bi bi-shuffle"></i> Sortear</button>
+                    <ul id="resultado" class="mt-3"></ul>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="./assets/img/amigo-secreto.png" class="img-fluid" alt="Hacker">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

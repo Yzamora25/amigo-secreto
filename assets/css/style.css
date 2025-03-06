@@ -1,0 +1,57 @@
+:root {
+    --color-bg: #000000;
+    --color-primary: #00a2a9;
+    --color-secondary: #1C1F24;
+    --color-text: #ffffff;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-custom {
+    background-color: var(--color-secondary);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px var(--color-primary);
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: var(--color-primary);
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #02979c;
+}
+
+input {
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #1A2B34;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: var(--color-text);
+}
+
+h1 {
+    color: var(--color-text);
+}
